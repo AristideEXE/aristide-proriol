@@ -3,7 +3,9 @@
     top: 0;
     bottom: 0;
     width: 100%;
-    padding: 7% 15%;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
 }
 
 .home .welcome{
@@ -13,15 +15,27 @@
 }
 
 .home h1{
-    font-size: 3rem;
+    font-size: 3.3rem;
     margin-top: -1rem;
     margin-bottom: 0;
     padding: 0;
 }
 
 .home .subtitle{
-    font-size: 1.75rem;
-    margin-top: -0.5rem;
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
     padding: 0;
     color: var(--secondary-color);
+}
+
+.buttonContent {
+    margin: 0.4rem;
+    padding: 0px 40px;
+    color: var(--primary-color);
+    font-family: 'Baloo Bhai 2';
+    font-size: 1.2rem;
+}
+
+.firstButton {
+    margin-right: 20px;
 }

@@ -1,0 +1,7 @@
+.text{
+    margin: 0.4rem;
+    padding: 0px 40px;
+    color: var(--primary-color);
+    font-family: 'Baloo Bhai 2';
+    font-size: 1.2rem;
+}
