@@ -9,5 +9,5 @@
 .header .homeLink{
     color: var(--primary-color);
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1vw;
 }
