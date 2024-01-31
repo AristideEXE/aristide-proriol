@@ -4,10 +4,13 @@
     right: 0;
     padding: 6vh 10vw;
     z-index: 100;
+    display: flex;
+    justify-content: space-between;
 }
 
-.header .homeLink{
+.header .link{
     color: var(--primary-color);
     text-decoration: none;
     font-size: 1vw;
+    vertical-align: text-top;
 }
