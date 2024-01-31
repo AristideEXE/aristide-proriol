@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import TextButton from "../../components/TextButton/TextButton";
+import classNames from "classnames";
 
 const Home = () => {
     return (
@@ -11,8 +12,10 @@ const Home = () => {
           <p className={styles.subtitle}>
             Étudiant en 3e année de BUT Informatique, et développeur en alternance chez Atol Conseils et Développements
           </p>
-          <Link>
-            <TextButton text={"Qui suis-je ?"} className={styles.firstButton}/>
+          <Link className={classNames(styles.links, styles.firstButton)}>
+            <TextButton text={"Qui suis-je ?"}/>
+          </Link>
+          <Link className={styles.links}>
             <TextButton text={"Mes projets"}/>
           </Link>
         </div>

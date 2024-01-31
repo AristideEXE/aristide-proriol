@@ -3,5 +3,11 @@
     padding: 0px 40px;
     color: var(--primary-color);
     font-family: 'Baloo Bhai 2';
-    font-size: 1.2rem;
+    font-size: 1.3vw;
+}
+
+@media (max-width: 40em) {
+    .text{
+        font-size: 2.6vw;
+    }
 }
