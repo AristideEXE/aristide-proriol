@@ -5,7 +5,7 @@ import { homePath } from "../../../routes";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <Link to={homePath}>
+      <Link to={homePath} className={styles.homeLink}>
         Aristide Proriol
       </Link>
     </div>

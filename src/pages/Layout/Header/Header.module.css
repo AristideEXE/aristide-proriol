@@ -2,5 +2,11 @@
     position: absolute;
     left: 0;
     right: 0;
-    padding: 5vh 10vw;
+    padding: 6vh 10vw;
+    z-index: 100;
+}
+
+.header .homeLink{
+    color: var(--dark-text-primary-color);
+    text-decoration: none;
 }
