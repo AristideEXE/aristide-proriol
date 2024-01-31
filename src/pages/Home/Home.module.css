@@ -3,4 +3,25 @@
     top: 0;
     bottom: 0;
     width: 100%;
+    padding: 7% 15%;
+}
+
+.home .welcome{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.home h1{
+    font-size: 3rem;
+    margin-top: -1rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.home .subtitle{
+    font-size: 1.75rem;
+    margin-top: -0.5rem;
+    padding: 0;
+    color: var(--dark-text-secondary-color);
 }
