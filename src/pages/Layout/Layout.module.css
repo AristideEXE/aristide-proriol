@@ -1,0 +1,12 @@
+.content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 97vh;
+    padding: 15vh 10vw;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+}

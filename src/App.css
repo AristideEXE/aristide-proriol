@@ -1,0 +1,9 @@
+body{
+  --dark-background-color : #31323A;
+  --dark-text-primary-color : #FFFFFF;
+  --dark-text-secondary-color : #A8AFCD;
+
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-primary-color);
+}
+
