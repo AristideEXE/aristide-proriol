@@ -4,7 +4,7 @@ import styles from "./Projects.module.css";
 const Projects = () => (
     <div className={styles.projects}>
         <Title title="Projets" />
-        <p>Coucou</p>
+        <p>Cette page est en cours de développement</p>
     </div>
 );
 
