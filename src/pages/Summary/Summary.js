@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Title from "../../components/Title/Title";
 import styles from "./Summary.module.css";
-import { contactPath, homePath, presentationPath } from "../../routes";
+import { contactPath, homePath, presentationPath, projectsPath } from "../../routes";
 
 const Summary = () => (
     <div className={styles.summary}>
@@ -13,7 +13,7 @@ const Summary = () => (
             <Link className={styles.link} to={presentationPath}>
                 <p><span className={styles.number}>02</span>PRÉSENTATION</p>
             </Link>
-            <Link className={styles.link} to={homePath}>
+            <Link className={styles.link} to={projectsPath}>
                 <p><span className={styles.number}>03</span>PROJETS</p>
             </Link>
             <Link className={styles.link} to={contactPath}>
