@@ -1,11 +1,11 @@
 import Title from "../../components/Title/Title";
-import styles from "./Presentation.module.css";
+import styles from "./About.module.css";
 import image from "./Aristide.jpg";
 import CV from "./CV Aristide Proriol 2024.pdf";
 import TextButton from "../../components/TextButton/TextButton";
 import FadeIn from "../../components/FadeIn/FadeIn";
 
-const Presentation = () => (
+const About = () => (
     <div className={styles.presentation}>
         <Title title="Présentation" />
         <div className={styles.flexbox}>
@@ -42,4 +42,4 @@ const Presentation = () => (
     </div>
 );
 
-export default Presentation;
+export default About;

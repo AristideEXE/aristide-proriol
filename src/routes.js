@@ -1,5 +1,5 @@
 export const homePath = "/";
 export const contactPath = "/contact";
-export const presentationPath = "/presentation";
+export const aboutPath = "/about";
 export const projectsPath = "/projets"
 export const summaryPath = "/summary";
