@@ -2,3 +2,12 @@
     width: 100%;
     padding: 0px;
 }
+
+.buttons div {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons div a {
+    padding: 0.5rem;
+}
