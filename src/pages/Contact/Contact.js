@@ -50,23 +50,23 @@ const Contact = () => (
           </div>
         </div>
 
-        <SeparationLine width="50%" delay="2.1s" className={styles.line}/>
+        <SeparationLine width="60%" delay="2.1s" className={styles.line}/>
 
         <div className={styles.socials}>
           <FadeIn delay="2.4s" duration="0.5s">
-            <a href="https://github.com/AristideEXE" target="_blank"><Github /></a>
+            <a href="https://github.com/AristideEXE" target="_blank"><Github className={styles.github}/></a>
           </FadeIn>
           <FadeIn delay="2.7s" duration="0.5s">
-            <a href="https://www.linkedin.com/in/aristide-proriol/" target="_blank"><Linkedin /></a>
+            <a href="https://www.linkedin.com/in/aristide-proriol/" target="_blank"><Linkedin className={styles.linkedin} /></a>
           </FadeIn>
           <FadeIn delay="3s" duration="0.5s">
-            <a href="https://www.youtube.com/@aristideexe" target="_blank"><Youtube /></a>
+            <a href="https://www.youtube.com/@aristideexe" target="_blank"><Youtube className={styles.youtube} /></a>
           </FadeIn>
           <FadeIn delay="3.3s" duration="0.5s">
-            <a href="https://www.instagram.com/aristide_exe/" target="_blank"><Instagram /></a>
+            <a href="https://www.instagram.com/aristide_exe/" target="_blank"><Instagram className={styles.instagram} /></a>
           </FadeIn>
           <FadeIn delay="3.6s" duration="0.5s">
-            <a href="https://twitter.com/AristideExe" target="_blank"><Twitter /></a>
+            <a href="https://twitter.com/AristideExe" target="_blank"><Twitter className={styles.twitter}/></a>
           </FadeIn>
         </div>
     </div>
