@@ -1,7 +1,13 @@
 import FadeIn from "../../components/FadeIn/FadeIn";
+import SeparationLine from "../../components/SeparationLine/SeparationLine";
 import TextButton from "../../components/TextButton/TextButton";
 import Title from "../../components/Title/Title";
 import styles from "./Contact.module.css";
+import { ReactComponent as Youtube } from "./Logos/Youtube.svg";
+import { ReactComponent as Github } from "./Logos/Github.svg";
+import { ReactComponent as Linkedin } from "./Logos/Linkedin.svg";
+import { ReactComponent as Twitter } from "./Logos/Twitter.svg";
+import { ReactComponent as Instagram } from "./Logos/Instagram.svg";
 
 const Contact = () => (
     <div className={styles.contact}>
@@ -42,6 +48,26 @@ const Contact = () => (
               </FadeIn>
             </a>
           </div>
+        </div>
+
+        <SeparationLine width="50%" delay="2.1s" className={styles.line}/>
+
+        <div className={styles.socials}>
+          <FadeIn delay="2.4s" duration="0.5s">
+            <a href="https://github.com/AristideEXE" target="_blank"><Github /></a>
+          </FadeIn>
+          <FadeIn delay="2.7s" duration="0.5s">
+            <a href="https://www.linkedin.com/in/aristide-proriol/" target="_blank"><Linkedin /></a>
+          </FadeIn>
+          <FadeIn delay="3s" duration="0.5s">
+            <a href="https://www.youtube.com/@aristideexe" target="_blank"><Youtube /></a>
+          </FadeIn>
+          <FadeIn delay="3.3s" duration="0.5s">
+            <a href="https://www.instagram.com/aristide_exe/" target="_blank"><Instagram /></a>
+          </FadeIn>
+          <FadeIn delay="3.6s" duration="0.5s">
+            <a href="https://twitter.com/AristideExe" target="_blank"><Twitter /></a>
+          </FadeIn>
         </div>
     </div>
 );

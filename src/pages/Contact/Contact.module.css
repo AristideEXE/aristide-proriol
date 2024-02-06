@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+.contact p{
+    font-size: 1.4vw;
+}
+
 .buttons div {
     display: flex;
     justify-content: center;
@@ -10,4 +14,27 @@
 
 .buttons div a {
     padding: 0.5rem;
+}
+
+.line {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3vh 0vw;
+}
+
+.socials{
+    padding: 3vh;
+    display: flex;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socials a svg {
+    height: 10vh;
+}
+
+.socials a svg path{
+    fill: var(--primary-color);
 }
