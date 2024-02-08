@@ -1,0 +1,8 @@
+.project {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectType {
+    color: var(--secondary-color);
+}
