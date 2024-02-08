@@ -32,4 +32,6 @@ const Summary = () => (
     </div>
 );
 
+Summary.propTypes = {};
+
 export default Summary;

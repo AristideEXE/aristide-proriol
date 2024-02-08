@@ -8,17 +8,38 @@
     padding-left: 8vw;
 }
 
-.list .link{
+.link{
     text-decoration: none;
 }
 
-.list .link p{
+
+.link p{
     font-size: 3vw;
     margin: 0;
     color: var(--primary-color);
+    position: relative;
+    width: min-content;
 }
 
-.list .link p .number{
+.link p::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+}
+
+.link p:hover:before {
+    animation: 0.5s ease-in-out borderBottom forwards;
+    border-bottom: solid 2px var(--primary-color);
+}
+
+@keyframes borderBottom {
+    0%    {width:0%;   height:100%}
+    100%  {width:100%; height:100%}
+}
+
+.link p .number{
     font-size: 1.5vw;
     margin-right: 1.3vw;
     color: var(--secondary-color);
