@@ -23,3 +23,9 @@
 .specifications div:first-child p {
     color: var(--secondary-color);
 }
+
+@media (max-width: 40em) {
+    .project {
+        width: 100%;
+    }
+}

@@ -5,7 +5,7 @@
 
 .list{
     padding-top: 5vh;
-    padding-left: 8vw;
+    padding-left: 8%;
 }
 
 .link{
@@ -14,7 +14,7 @@
 
 
 .link p{
-    font-size: 3vw;
+    font-size: 6vh;
     margin: 0;
     color: var(--primary-color);
     position: relative;
@@ -40,7 +40,7 @@
 }
 
 .link p .number{
-    font-size: 1.5vw;
+    font-size: 3vh;
     margin-right: 1.3vw;
     color: var(--secondary-color);
 }
