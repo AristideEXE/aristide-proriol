@@ -1,7 +1,13 @@
+import BackToProjects from "../../../../components/BackToProjects/BackToProjects";
 import styles from "./AristideProriol.module.css";
 
 const AristideProriol = () => (
-    <p>Aristide Proriol</p>
+    <>
+        <BackToProjects />
+        <div>
+            <p>Aristide Proriol</p>
+        </div>
+    </>
 );
 
 AristideProriol.propTypes = {};

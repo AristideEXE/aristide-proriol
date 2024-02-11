@@ -1,7 +1,13 @@
+import BackToProjects from "../../../../components/BackToProjects/BackToProjects";
 import styles from "./FactoryLand.module.css";
 
 const FactoryLand = () => (
-    <p>Factory Land</p>
+    <>
+        <BackToProjects />
+        <div>
+            <p>Factory Land</p>
+        </div>
+    </>
 );
 
 FactoryLand.propTypes = {};
