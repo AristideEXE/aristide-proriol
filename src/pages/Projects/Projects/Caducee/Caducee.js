@@ -26,7 +26,7 @@ const Caducee = () => (
                             <p>CADRE</p>
                         </div>
                         <div>
-                            <p>2023/2024</p>
+                            <p>2023 - 2024</p>
                             <p>ASP.NET, Vue JS 3.0, MySQL</p>
                             <p>BUT Informatique</p>
                         </div>
