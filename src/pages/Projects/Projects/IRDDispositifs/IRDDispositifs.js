@@ -1,13 +1,16 @@
 import BackToProjects from "../../../../components/BackToProjects/BackToProjects";
 import FadeIn from "../../../../components/FadeIn/FadeIn";
 import Title from "../../../../components/Title/Title";
+import { cloneMonsterHunter } from "../../../../routes";
 import styles from "./IRDDispositifs.module.css";
 
 const IRDDispositifs = () => (
     <>
-        {/* <BackToProjects /> */}
         <div className={styles.project}>
-            <Title title="IRD Dispositifs" />
+            <Title 
+                title="IRD Dispositifs" 
+                afterTitle={<BackToProjects nextProjectLink={cloneMonsterHunter}/>}
+            />
             
             <div className={styles.content}>
                 <FadeIn delay="0.5s" duration="0.5s">

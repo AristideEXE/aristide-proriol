@@ -5,12 +5,16 @@ import styles from "./Caducee.module.css";
 import SeparationLine from "../../../../components/SeparationLine/SeparationLine";
 import Title from "../../../../components/Title/Title";
 import FadeIn from "../../../../components/FadeIn/FadeIn";
+import { factoryland } from "../../../../routes";
 
 const Caducee = () => (
     <>
         {/* <BackToProjects /> */}
         <div className={styles.project}>
-            <Title title="Caducée" />
+            <Title 
+                title="Caducée" 
+                afterTitle={<BackToProjects nextProjectLink={factoryland}/>}
+            />
             
             <div className={styles.content}>
                 <FadeIn delay="0.5s" duration="0.5s">
@@ -59,6 +63,9 @@ const Caducee = () => (
                     <img src={Administration} />
                 </FadeIn>
             </div>
+            <FadeIn delay="2.9s" duration="0.5s">
+                <BackToProjects nextProjectLink={factoryland}/>
+            </FadeIn>
         </div>
     </>
 );
