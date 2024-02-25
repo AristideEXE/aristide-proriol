@@ -1,8 +1,14 @@
 .project {
     display: flex;
     justify-content: space-between;
+    text-decoration: none !important;
+    padding: 5px 0 5px 0;
 }
 
 .projectType {
     color: var(--secondary-color);
+}
+
+.projectTitle{
+    color: var(--primary-color);
 }

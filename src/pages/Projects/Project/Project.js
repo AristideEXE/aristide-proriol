@@ -3,11 +3,9 @@ import styles from "./Project.module.css";
 import { Link } from "react-router-dom";
 
 const Project = ({ name, type, path }) => (
-    <Link to={path}>
-        <div className={styles.project}>
-            <p className={styles.projectTitle}>{name}</p>
-            <p className={styles.projectType}>{type}</p>
-        </div>
+    <Link to={path} className={styles.project}>
+        <p className={styles.projectTitle}>{name}</p>
+        <p className={styles.projectType}>{type}</p>
     </Link>
 );
 
