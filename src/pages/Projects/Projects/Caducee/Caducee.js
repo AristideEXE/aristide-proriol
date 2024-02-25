@@ -9,7 +9,6 @@ import { factoryland } from "../../../../routes";
 
 const Caducee = () => (
     <>
-        {/* <BackToProjects /> */}
         <div className={styles.project}>
             <Title 
                 title="Caducée" 

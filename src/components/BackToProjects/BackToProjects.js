@@ -8,9 +8,11 @@ const BackToProjects = ({ nextProjectLink }) => (
         <Link className={styles.link} to={projectsPath}>
             &#60; Retour à la liste des projets
         </Link>
-        <Link className={styles.link} to={nextProjectLink} onClick={window.scrollTo(0,0)}>
+        {nextProjectLink ? (
+            <Link className={styles.link} to={nextProjectLink} onClick={window.scrollTo(0,0)}>
             Projet suivant &#62;
         </Link>
+        ) : null}
     </div>
 )
 
