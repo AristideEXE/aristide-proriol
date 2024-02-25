@@ -23,7 +23,7 @@ const IRDDispositifs = () => (
                 <FadeIn delay="0.8s" duration="0.5s">
                     <div className={styles.specifications}>
                         <div>
-                            <p>ANNÉE</p>
+                            <p>ANNÉES</p>
                             <p>TECHNOLOGIES</p>
                             <p>CADRE</p>
                         </div>
