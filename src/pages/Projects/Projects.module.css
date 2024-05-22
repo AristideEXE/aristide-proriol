@@ -3,9 +3,10 @@
     padding: 0px;
 }
 
-.grid {
-    padding : 5vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8vw;
+.projectList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+    row-gap: 30px
 }

@@ -6,14 +6,14 @@ import styles from "./FactoryLand.module.css";
 import Menu from "./Images/Menu.png";
 import Game from "./Images/Game.png";
 import V1 from "./Images/V1.png";
-import { irdDispositifs } from "../../../../routes";
+import { starWarsLegacy } from "../../../../routes";
 
 const FactoryLand = () => (
     <>
         <div className={styles.project}>
             <Title 
                 title="Factory Land" 
-                afterTitle={<BackToProjects nextProjectLink={irdDispositifs}/>}
+                afterTitle={<BackToProjects nextProjectLink={starWarsLegacy}/>}
             />
             
             <div className={styles.content}>
@@ -83,7 +83,7 @@ const FactoryLand = () => (
             </div>
 
             <FadeIn delay="3.5s" duration="0.5s">
-                <BackToProjects nextProjectLink={irdDispositifs}/>
+                <BackToProjects nextProjectLink={starWarsLegacy}/>
             </FadeIn>
         </div>
     </>

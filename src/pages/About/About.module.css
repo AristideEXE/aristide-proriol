@@ -21,7 +21,7 @@
 }
 
 .image{
-    width: 40%;
+    width: 30%;
     padding-top: 10vh;
 }
 
@@ -41,7 +41,7 @@
 
 .imageDiv img{
     max-width: 100%;
-    transform: translate(5vh, -5vh);
+    transform: translate(5vh, -4.5vh);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;

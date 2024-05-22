@@ -12,7 +12,7 @@ const Caducee = () => (
         <div className={styles.project}>
             <Title 
                 title="Caducée" 
-                afterTitle={<BackToProjects nextProjectLink={factoryland}/>}
+                afterTitle={<BackToProjects />}
             />
             
             <div className={styles.content}>
@@ -63,7 +63,7 @@ const Caducee = () => (
                 </FadeIn>
             </div>
             <FadeIn delay="2.9s" duration="0.5s">
-                <BackToProjects nextProjectLink={factoryland}/>
+                <BackToProjects />
             </FadeIn>
         </div>
     </>

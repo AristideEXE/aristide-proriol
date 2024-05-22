@@ -7,13 +7,14 @@ import Menu from "./Images/Menu.png";
 import Blacksmith from "./Images/Blacksmith.png";
 import Lobby from "./Images/Lobby.png";
 import Fight from "./Images/Fight.png";
+import { irdDispositifs } from "../../../../routes";
 
 const CloneMonsterHunter = () => (
     <>
         <div className={styles.project}>
             <Title 
                 title="Clone de Monster Hunter" 
-                afterTitle={<BackToProjects/>}
+                afterTitle={<BackToProjects nextProjectLink={irdDispositifs}/>}
             />
             
             <div className={styles.content}>
@@ -82,7 +83,7 @@ const CloneMonsterHunter = () => (
             </div>
 
             <FadeIn delay="3.5s" duration="0.5s">
-                <BackToProjects />
+                <BackToProjects nextProjectLink={irdDispositifs}/>
             </FadeIn>
 
         </div>

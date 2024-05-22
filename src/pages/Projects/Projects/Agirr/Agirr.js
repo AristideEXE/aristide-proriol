@@ -1,22 +1,23 @@
 import BackToProjects from "../../../../components/BackToProjects/BackToProjects";
 import FadeIn from "../../../../components/FadeIn/FadeIn";
 import Title from "../../../../components/Title/Title";
-import { agirr } from "../../../../routes";
-import styles from "./IRDDispositifs.module.css";
+import { caducee } from "../../../../routes";
+import styles from "./Agirr.module.css";
 
-const IRDDispositifs = () => (
+const Agirr = () => (
     <>
         <div className={styles.project}>
             <Title 
-                title="IRD Dispositifs" 
-                afterTitle={<BackToProjects nextProjectLink={agirr}/>}
+                title="AGIRR" 
+                afterTitle={<BackToProjects nextProjectLink={caducee}/>}
             />
             
             <div className={styles.content}>
                 <FadeIn delay="0.5s" duration="0.5s">
                     <p>
-                        IRD Dispositifs est un progiciel de suivi de projets fait dans le cadre de mon alternance chez Atol Conseils et Développements.
-                        Le logiciel a été développé pour l'IRD, l'Institut de Recherche pour le Développement, dans le cadre de l'informatisation de leur système d'information.
+                        AGIRR est une application de gestion d'interventions réalisée dans le cadre de mon alternance chez Atol Conseils et Développements.
+                        Le logiciel a été développé pour le STEA, le Service de l'Eau et de l'Assainissement, dans le cadre de la refonte de leur système d'information.
+                        L'application permet de gérer les différentes interventions sur les parties régulées du réseau d'assainissement de la ville de Paris.
                     </p>
                 </FadeIn>
                 
@@ -28,8 +29,8 @@ const IRDDispositifs = () => (
                             <p>CADRE</p>
                         </div>
                         <div>
-                            <p>2023 - En cours</p>
-                            <p>React JS - Java 17 - PostgreSQL - GraphQL</p>
+                            <p>2024 - En cours</p>
+                            <p>Angular - Java 17 - PostgreSQL</p>
                             <p>Alternance chez Atol Conseils et Développements</p>
                         </div>
                     </div>
@@ -39,6 +40,6 @@ const IRDDispositifs = () => (
     </>
 );
 
-IRDDispositifs.propTypes = {};
+Agirr.propTypes = {};
 
-export default IRDDispositifs;
+export default Agirr;
