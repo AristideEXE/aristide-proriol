@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { contactPath, homePath, aboutPath, projectsPath, summaryPath, aristideproriol, caducee, factoryland, irdDispositifs, cloneMonsterHunter, starWarsLegacy, agirr } from './routes';
 import Layout from './pages/Layout/Layout';
 import Home from './pages/Home/Home';
@@ -16,7 +16,7 @@ import Agirr from './pages/Projects/Projects/Agirr/Agirr';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path={homePath} element={<Layout />}>
           <Route index element={<Home />} />
@@ -33,7 +33,7 @@ const App = () => {
           <Route path="*" element={<p>Page introuvable</p>} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
